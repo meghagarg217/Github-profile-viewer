@@ -1,0 +1,67 @@
+body {
+    font-family: hind,sans-serif;
+}
+.container {
+    margin: 25px auto 15px 25px;
+}
+.title {
+    font-size: 55px;
+}
+#username {
+    width: 60%;
+    line-height: 30px;
+    font-size: medium;
+}
+
+#pullUserData {
+    margin: 15px 0;
+    padding: 10px 12px;
+    color: white;
+    background-color: #5bb75b;
+    background-image: linear-gradient(to bottom, #62c462, #51a351);
+    border: 1px solid;
+    border-radius: 3px;
+    cursor: pointer;
+}
+#btn:hover {
+    background-color: #51a351;
+    background-position: 0 -35px;
+    transition: background-position 0.1s linear;
+}
+#user-data {
+    display: none;
+    margin:0 auto 40px 25px;
+}
+#userinfo {
+    display: flex;
+}
+#data {
+    margin-left: 5px;
+}
+#userimage {
+    margin: 5px;
+    border: 1px solid gray;
+    outline: 1px solid gray;
+    outline-offset: 4px;
+    width: 100px;
+}
+#repo-list {
+    list-style-type: none;
+    margin: 10px 5px 0 -5px;
+    padding: 0;
+    overflow: hidden;
+}
+#repo-list button{
+    background-color: #DF6E3C;
+    margin: 5px;
+    padding: 7px;
+    border: none;
+    border-radius: 3px;
+    font-weight: 600;
+    color: white;
+    cursor: pointer;
+}
+#failed-request {
+    display: none;
+    margin:0 auto 40px 25px;
+}
